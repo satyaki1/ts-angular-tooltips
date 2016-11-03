@@ -149,7 +149,7 @@
 
     grunt.registerTask('prod', [
       'csslint',
-//      'eslint',
+      'eslint',
       'cssmin',
       'uglify'
     ]);
