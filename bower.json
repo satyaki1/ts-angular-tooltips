@@ -1,0 +1,32 @@
+{
+  "name": "ts-angular-tooltips",
+  "version": "0.1.25",
+  "description": "Angular.js tooltips module.",
+  "authors": [
+    "Filippo Oretti <filippo.oretti@gmail.com>",
+    "Dario Andrei <wouldgo84@gmail.com>",
+    "Srijan Ghosh <srijanghosh.mca@gmail.com>"
+  ],
+  "keywords": [
+    "tiptip",
+    "tooltip",
+    "tooltips",
+    "popover",
+    "angularjs",
+    "angular"
+  ],
+  "main": [
+    "./dist/angular-tooltips.min.js",
+    "./dist/angular-tooltips.min.css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/srijanghosh/ts-angular-tooltips",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".idea"
+  ]
+}
