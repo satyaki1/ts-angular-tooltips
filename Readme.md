@@ -47,14 +47,14 @@ To use the directive, include the angular tooltips's javascript and css files in
 ###Bower installation
 
 ```
-$ bower install angular-tooltips --save
+$ bower install ts-angular-tooltips --save
 ```
 _then load the js files in your html_
 
 ###Npm installation
 
 ```
-$ npm install angular-tooltips --save
+$ npm install ts-angular-tooltips --save
 ```
 
 _then load the js files in your html_
