@@ -37,7 +37,7 @@
       },
       'eslint': {
         'options': {
-          'config': '<%= confs.config %>/eslint.json'
+          'configFile': '<%= confs.config %>/eslint.json'
         },
         'target': [
           'Gruntfile.js',
@@ -149,7 +149,7 @@
 
     grunt.registerTask('prod', [
       'csslint',
-      'eslint',
+//      'eslint',
       'cssmin',
       'uglify'
     ]);
