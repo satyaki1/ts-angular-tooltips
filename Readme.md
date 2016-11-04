@@ -132,6 +132,7 @@ then use it in your tooltip html template:
 ####Tooltip view controller
 You can set a controller for your tooltip view
 using the `tooltip-view=""` together with `tooltip-view-ctrl=""`  attribute
+using `tooltip-freeze-on-hover="true"` tooltip will freeze. and tooltip-mouse-out-fn is used to fire function on mouse of tooltip msg
 
 ```html
 <a href="#" tooltips tooltip-title="tip" tooltip-view="path/to/view.html" tooltip-view-ctrl="MyCtrl">Tooltip me</a>
