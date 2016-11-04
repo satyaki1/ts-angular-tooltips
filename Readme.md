@@ -1,21 +1,15 @@
 Angular Tooltips
 ==================
 
-[![Join the chat at https://gitter.im/720kb/angular-tooltips](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/720kb/angular-tooltips?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
 Angular Tooltips is an angularjs directive that generates a tooltip on your element.
 
 
-The angular tooltips is developed by [720kb](http://720kb.net).
+The angular tooltips is developed by [720kb](http://720kb.net) and Modified by Srijan (https://github.com/srijanghosh).
 
 ##Requirements
 
 
 AngularJS v1.2+
-
-##Screen
-![Angular tooltips](http://i.imgur.com/2rOwAbQ.png)
 
 ###Browser support
 
@@ -257,10 +251,7 @@ Calling `options` method without arguments returns the complete options object.
 
 ## Example
 
-###[Live demo](https://720kb.github.io/angular-tooltips)
-
-##Theming
-You can edit the default Css file `angular-tooltips.css` if you want to make a new theme for the tooltips.
+<span tooltips tootltip-title="tip" tooltip-freeze-on-hover="true" tooltip-view="job/signature_tooltip.html" tooltip-view-model="log" tooltip-speed="fast" tooltip-class="tooltipContainer signatureTooltip" tooltip-side="top" tooltip-try="1" tooltip-hide-trigger="mouseleave" tooltip-show-trigger="mouseover">x</span>
 
 ##Contributing
 

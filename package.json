@@ -1,8 +1,8 @@
 {
-  "name": "angular-tooltips",
+  "name": "ts-angular-tooltips",
   "version": "0.1.25",
   "description": "Angular.js tooltips module.",
-  "homepage": "http://720kb.github.io/angular-tooltips",
+  "homepage": "https://github.com/srijanghosh/ts-angular-tooltips",
   "main": "index.js",
   "keywords": [
     "tiptip",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/720kb/angular-tooltips.git"
+    "url": "https://github.com/srijanghosh/ts-angular-tooltips.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -35,9 +35,9 @@
   },
   "contributors": [
     {
-      "name": "Dario Andrei",
-      "email": "wouldgo84@gmail.com",
-      "url": "https://github.com/wouldgo"
+      "name": "Srijan Ghosh",
+      "email": "srijanghosh.mca@gmail.com",
+      "url": "https://github.com/srijanghosh"
     }
   ]
 }
