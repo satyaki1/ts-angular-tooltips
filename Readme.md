@@ -135,6 +135,8 @@ using the `tooltip-view=""` together with `tooltip-view-ctrl=""`  attribute
 
 ```html
 <a href="#" tooltips tooltip-title="tip" tooltip-view="path/to/view.html" tooltip-view-ctrl="MyCtrl">Tooltip me</a>
+<span tooltips tootltip-title="tip" tooltip-freeze-on-hover="true" tooltip-view="job/signature_tooltip.html" tooltip-view-model="log" tooltip-speed="fast" tooltip-class="tooltipContainer signatureTooltip" tooltip-side="top" tooltip-try="1" tooltip-hide-trigger="mouseleave" tooltip-show-trigger="mouseover">x</span>
+
 ```
 
 ####Tooltip size
@@ -249,9 +251,6 @@ Of course specific tooltips can still overwrite any default using attributes.
 
 Calling `options` method without arguments returns the complete options object.
 
-## Example
-
-<span tooltips tootltip-title="tip" tooltip-freeze-on-hover="true" tooltip-view="job/signature_tooltip.html" tooltip-view-model="log" tooltip-speed="fast" tooltip-class="tooltipContainer signatureTooltip" tooltip-side="top" tooltip-try="1" tooltip-hide-trigger="mouseleave" tooltip-show-trigger="mouseover">x</span>
 
 ##Contributing
 
