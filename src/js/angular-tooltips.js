@@ -267,7 +267,7 @@
         $scope.hideTooltip = function hideTooltip() {
           var t=0;//*
           if(attr.tooltipFreezeOnHover){//*
-            t=1000;//*
+            t=300;//*
           }
           $timeout(function(){
               if(theTooltip.forceShow){//*
